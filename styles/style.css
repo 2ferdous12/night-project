@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+    ;
+}
+
+.header-container{
+    max-width: 1270px;
+    width: 100%;
+    margin: 20px auto;
+border-bottom: 1px solid gray;
+}
+
+.text-section{
+   
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.image-section{
+    align-items: center;
+}
+
+.image-section img{
+    width: 50px;
+    height: 50px;
+
+}
+
+.image-section .icon{
+width: 40px;
+height: 25px;
+padding: 10px;
+}
+
+.shoos-container{
+    max-width: 1260px;
+    height: 600px;
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.shoes{
+
+   
+}
+.shoes img{
+max-width: 500px;
+object-fit: cover;
+width: 100%;
+border-radius: 20px;
+
+}
+.text-sectio{
+    max-width: 400px;
+    width: 100%;
+}
+.text-sectio p{
+max-width: 400px;
+width: 100%;
+margin: 30px auto;
+font-size: 20px;
+line-height: 24px;
+}
+
+.text-sectio h3{
+    max-width: 250px;
+    width: 100%;
+   margin-bottom: 30px;
+   font-size: 27px;
+}
+
+.text-sectio button{
+    padding: 10px 20px;
+    color: white;
+    background-color: orange;
+    border-style: solid;
+    border-radius: 8px;
+    font-size: 24px;
+}
+
+.text-sectio span{
+    color: red;
+    font-weight: bold;
+    padding: 0px 10px;
+}
+
+.text-sectio h4{
+    font-size: 15px;
+    color: orange;
+    margin-bottom: 20px;
+}
+
+.product{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 35px;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+.product img{
+ max-width: 100px;
+ width: 100%;
+ border-radius: 10px;
+}
+.container-p{
+    max-width: 1260px;
+    width: 100%;
+ margin: 0px auto;
+}
+.product{
+  max-width: 400px;
+  width: 100%;
+}
+
+@media screen and (max-width:500px){
+
+    .shoos-container{
+flex-direction: column;
+width: 100%;
+    }
+
+    .header-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .product{
+        margin-top: 200px;
+        margin-bottom: 50px;
+      
+    }
+    .text-sectio h4{
+        margin-top: 50px;
+    }
+    .text-sectio button{
+        margin-bottom: 20px;
+    }
+    .text-section{
+        flex-direction: column;
+
+width: 100%;
+margin-top: 10px;
+margin-bottom: 80px;
+line-height: 25px;
+    }
+
+    .image-section{
+        margin-top: -50px;
+    }
+
+    .shoes img{
+        margin-top: 100px;
+    }
+}
